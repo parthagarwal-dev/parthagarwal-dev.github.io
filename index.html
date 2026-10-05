@@ -1,290 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Parth Agarwal — Penn State Computer Science and Mathematics undergraduate researching reliable and generalizable AI, agentic AI, multimodal learning, distribution shift, and AI for scientific discovery." />
-  <meta name="author" content="Parth Agarwal" />
-  <meta property="og:title" content="Parth Agarwal | AI Research" />
-  <meta property="og:description" content="Research in reliable and generalizable AI, agentic systems, multimodal learning, distribution shift, and AI for scientific discovery." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://parthagarwal-dev.github.io/" />
-  <link rel="canonical" href="https://parthagarwal-dev.github.io/" />
-  <title>Parth Agarwal | AI Research</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Parth Agarwal is a Computer Science and Mathematics undergraduate at Penn State researching verifiable scientific agents, multimodal EHR learning, and reliable AI.">
+  <meta name="author" content="Parth Agarwal">
+  <meta name="theme-color" content="#782b3c">
+  <meta property="og:title" content="Parth Agarwal | Research">
+  <meta property="og:description" content="Research in agentic AI, multimodal learning, and reliable machine learning for healthcare and science.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://parthagarwal-dev.github.io/">
+  <link rel="canonical" href="https://parthagarwal-dev.github.io/">
+  <title>Parth Agarwal | Research</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="#top">Parth Agarwal</a>
-      <nav aria-label="Primary navigation">
+    <div class="header-inner">
+      <a class="wordmark" href="#top">Parth Agarwal</a>
+      <nav aria-label="Main navigation">
         <a href="#research">Research</a>
-        <a href="#experience">Experience</a>
         <a href="#publications">Publications</a>
-        <a href="#news">News</a>
+        <a href="#honors">Honors</a>
+        <a href="#experience">Experience</a>
+        <a href="#teaching">Teaching</a>
         <a href="#contact">Contact</a>
+        <a href="Parth_Agarwal_CV.pdf">CV <span class="file-label">PDF</span></a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
-    <section class="hero container">
-      <div class="hero-copy">
-        <p class="eyebrow">Computer Science & Mathematics · Penn State</p>
-        <h1>Parth Agarwal</h1>
-
-        <p class="lead">
-          I am a senior at Penn State interested in developing
-          <strong>reliable and generalizable AI systems</strong>.
-        </p>
-
-        <p class="sublead">
-          My research interests include trustworthy AI, agentic systems,
-          adaptation under distribution shift, multimodal learning, foundation models,
-          and AI for scientific discovery. I am particularly interested in methods that
-          help AI systems recognize failures, adapt under changing conditions, and remain
-          reliable in complex real-world and scientific settings.
-        </p>
-
-        <div class="hero-links">
-          <a class="button primary" href="#research">Research</a>
-          <a class="button" href="Parth_Agarwal_CV.pdf" target="_blank">CV</a>
-          <a class="button" href="https://github.com/parthagarwal-dev" target="_blank" rel="noreferrer">GitHub</a>
-          <a class="button" href="https://www.linkedin.com/in/parth-agarwal" target="_blank" rel="noreferrer">LinkedIn</a>
-        </div>
-      </div>
-
-      <div class="portrait-placeholder" aria-label="Profile photo placeholder">
-        <span>PA</span>
-      </div>
-    </section>
-
-    <section id="research" class="section alt">
-      <div class="container">
-        <p class="section-kicker">Research</p>
-        <h2>Research Interests</h2>
-
-        <div class="cards">
-          <article class="card">
-            <h3>Reliable & Generalizable AI</h3>
-            <p>
-              Reliability, robustness, evaluation, and adaptation when models encounter
-              changing environments, imperfect feedback, or distribution shift.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Agentic AI</h3>
-            <p>
-              Structured planning, tool use, reusable capabilities, verification,
-              recovery, and multi-agent systems for complex long-horizon tasks.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>AI for Scientific Discovery</h3>
-            <p>
-              General AI methods for scientific reasoning and workflows, using science
-              as a demanding setting for studying reliable, adaptive, and verifiable AI.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Multimodal & Foundation Models</h3>
-            <p>
-              Learning and reasoning across heterogeneous modalities, with an emphasis
-              on reliable deployment, adaptation, and useful scientific applications.
-            </p>
-          </article>
-        </div>
-
-        <div class="research-grid">
-          <article class="project featured">
-            <p class="project-label">Current Research · UIUC</p>
-            <h3>Verifiable Agentic AI for Scientific Applications</h3>
-            <p>
-              With Prof. Haohan Wang, I am developing a compiler-inspired scientific-agent
-              architecture that converts open-ended scientific intent into typed plans,
-              registry-bound primitives, deterministic execution, and verifier-authorized results.
-            </p>
-            <p>
-              My work includes reusable scientific capabilities across single-cell,
-              transcriptomics, and genomics, along with verifier-side recomputation,
-              provenance checks, adversarial testing, repeat-parity checks, and fail-closed recovery.
-            </p>
-            <p class="muted">
-              Current manuscript in preparation for submission to RECOMB 2027.
-            </p>
-          </article>
-
-          <article class="project">
-            <p class="project-label">Planned Thesis Research</p>
-            <h3>Reliable Adaptation of Pretrained Models under Structured Distribution Shift</h3>
-            <p>
-              I am interested in determining, without target labels, when adapting a pretrained
-              model to a shifted deployment environment is likely to help or hurt.
-            </p>
-            <p>
-              The broader goal is to develop reliability signals that can support a selective
-              decision: adapt when evidence suggests adaptation is beneficial, or retain the
-              original model when adaptation is likely to degrade performance.
-            </p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="experience" class="section">
-      <div class="container">
-        <p class="section-kicker">Experience</p>
-        <h2>Research Experience</h2>
-
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="timeline-meta">UIUC · May 2026–Present</div>
-            <div>
-              <h3>Undergraduate Research · Prof. Haohan Wang</h3>
-              <p class="role">Verifiable Agentic AI for Computational Biology</p>
-              <p>
-                Developing typed scientific plans, structured tool execution, reusable
-                scientific capabilities, and independent verification and recovery for
-                scientific-agent workflows.
-              </p>
-            </div>
-          </article>
-
-          <article class="timeline-item">
-            <div class="timeline-meta">Penn State · Sep 2025–Aug 2026</div>
-            <div>
-              <h3>Undergraduate Research · Prof. Fenglong Ma</h3>
-              <p class="role">Multimodal EHR Modeling + Clinical NLP</p>
-              <p>
-                Built multimodal learning pipelines for EHR time series and clinical text,
-                including missing-modality handling, masked-attention fusion, attribution,
-                calibration, and robustness evaluation under missingness and shift.
-              </p>
-            </div>
-          </article>
-
-          <article class="timeline-item">
-            <div class="timeline-meta">Penn State · Nov 2024–Aug 2025</div>
-            <div>
-              <h3>Undergraduate Research · Prof. Suman Saha</h3>
-              <p class="role">Explainable Gait Abnormality Detection</p>
-              <p>
-                Developed a dual-dataset CNN-LSTM pipeline for cross-view gait analysis,
-                including classical and deep-learning baselines, imbalance handling, and
-                validation on unseen identities for deployment robustness.
-              </p>
-            </div>
-          </article>
-
-          <article class="timeline-item">
-            <div class="timeline-meta">Penn State · Dec 2023–Aug 2025</div>
-            <div>
-              <h3>Research Volunteer · Systems and Network Security Lab</h3>
-              <p>
-                Worked with fuzzing tools including AFL, AFL++, AFLNet, and LibAFL for
-                vulnerability analysis in cellular and IoT systems.
-              </p>
-            </div>
-          </article>
-        </div>
-
-        <div class="callout">
-          <h3>Research Fellowships</h3>
-          <p>
-            <strong>Penn State College of Engineering Research Funding</strong> (2026–27) —
-            $4,000 donor-funded undergraduate research award.
-          </p>
-          <p>
-            <strong>Summer Undergraduate Research Experience (SURE)</strong> (2026) —
-            funded 10-week full-time research fellowship in multimodal clinical machine learning.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="publications" class="section alt">
-      <div class="container">
-        <p class="section-kicker">Selected Work</p>
-        <h2>Publications & Presentations</h2>
-
-        <article class="publication">
-          <div class="pub-year">2025</div>
-          <div>
-            <h3>Explainable Gait Abnormality Detection Using Dual-Dataset CNN-LSTM Model</h3>
-            <p>
-              <strong>Parth Agarwal</strong>, Sangaa Chatterjee, Md Faisal Kabir, Suman Saha.
-              <em>IEEE International Conference on Machine Learning and Applications (ICMLA), 2025.</em>
-            </p>
-            <p>
-              <a href="https://arxiv.org/abs/2509.16472" target="_blank" rel="noreferrer">arXiv:2509.16472</a>
-            </p>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">2026</div>
-          <div>
-            <h3>A General Biomedical Agentic Framework</h3>
-            <p>
-              <strong>Parth Agarwal</strong> and Haohan Wang.
-              Poster presented at the Midwest Machine Learning Symposium (MMLS), Purdue University, 2026.
-            </p>
-          </div>
-        </article>
-
-        <article class="publication">
-          <div class="pub-year">In preparation</div>
-          <div>
-            <h3>Verifiable Scientific AI Systems</h3>
-            <p>
-              Manuscript based on current scientific-agent research; being prepared for
-              submission to RECOMB 2027.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="news" class="section">
-      <div class="container narrow">
-        <p class="section-kicker">Updates</p>
-        <h2>News</h2>
-        <ul class="news-list">
-          <li><span>2026</span> Selected for Penn State College of Engineering undergraduate research funding.</li>
-          <li><span>2026</span> Presented “A General Biomedical Agentic Framework” at MMLS 2026 at Purdue University.</li>
-          <li><span>2026</span> Began research with Prof. Haohan Wang at UIUC on verifiable scientific agents.</li>
-          <li><span>2026</span> Served on the Program Committee for IEEE ICTAI 2026.</li>
-          <li><span>2025</span> Published gait-abnormality research at IEEE ICMLA 2025.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contact" class="section alt">
-      <div class="container narrow">
-        <p class="section-kicker">Contact</p>
-        <h2>Get in Touch</h2>
-        <p>
-          I am interested in research opportunities involving reliable and generalizable AI,
-          trustworthy foundation models, agentic systems, multimodal learning, and AI for scientific discovery.
-        </p>
-        <div class="contact-links">
+  <main class="page" id="main">
+    <section class="about" id="top" aria-labelledby="name">
+      <div class="profile">
+        <p class="eyebrow">Penn State University</p>
+        <h1 id="name">Parth <br>Agarwal</h1>
+        <p class="profile-degree">Computer Science <br>&amp; Mathematics</p>
+        <p class="profile-meta">Undergraduate researcher <br>Expected graduation · May 2027</p>
+        <div class="profile-links" aria-label="Profile links">
           <a href="mailto:parthagarwalag@gmail.com">Email</a>
-          <a href="https://github.com/parthagarwal-dev" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/parth-agarwal" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="Parth_Agarwal_CV.pdf" target="_blank">CV</a>
+          <a href="Parth_Agarwal_CV.pdf">CV</a>
+          <a href="https://github.com/parthagarwal-dev">GitHub</a>
+          <a href="https://www.linkedin.com/in/parth-agarwal">LinkedIn</a>
         </div>
       </div>
+      <div class="intro">
+        <p>I am a senior at The Pennsylvania State University studying <strong>Computer Science and Mathematics</strong>. My research interests are in reliable AI, agentic systems, and multimodal learning, with applications in healthcare and scientific discovery.</p>
+        <p>I currently work with <a href="#wang">Dr. Haohan Wang</a> at the University of Illinois Urbana-Champaign on verifiable scientific agents. At Penn State, I worked with <a href="#ma">Dr. Fenglong Ma</a> on multimodal electronic health record (EHR) modeling and clinical NLP, including a funded, ten-week <a href="#sure">Summer Undergraduate Research Experience (SURE)</a> fellowship.</p>
+        <p>Previously, I worked with <a href="#saha">Dr. Suman Saha</a> on explainable gait abnormality detection. This work led to our <a href="https://arxiv.org/abs/2509.16472">ICMLA 2025 paper</a> on dual-dataset CNN-LSTM models.</p>
+        <p class="availability">I am seeking PhD opportunities beginning in <strong>Fall 2027</strong>.</p>
+      </div>
+    </section>
+
+    <section class="section" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><h2 id="research-title">Research</h2><p>Projects &amp; directions</p></div>
+      <div class="section-content">
+        <p class="section-intro">I am interested in methods that make AI systems reliable when inputs are incomplete, conditions change, or a task requires several steps of reasoning and computation.</p>
+
+        <article class="research-entry" id="wang">
+          <div class="entry-top"><p class="entry-category">Agentic AI · Scientific computing</p><span class="date">May 2026–Present</span></div>
+          <h3>Verifiable agents for scientific workflows</h3>
+          <p class="affiliation">Dr. Haohan Wang · University of Illinois Urbana-Champaign</p>
+          <p>I am developing a compiler-inspired biomedical agent architecture that translates scientific requests into explicit, typed plans. The system connects each step to a registered computational capability and checks execution and scientific validity before authorizing a result.</p>
+          <ul class="contributions">
+            <li><strong>Planning and input interpretation.</strong> Resolving the roles of matrices, cohorts, conditions, covariates, and annotations, with typed execution contracts for H5AD, MTX, VCF, and BED inputs.</li>
+            <li><strong>Reusable scientific capabilities.</strong> Building support for differential expression, gene regulatory and co-expression networks, enrichment, and variant or peak annotation across single-cell, transcriptomic, and genomic workflows.</li>
+            <li><strong>Verification and recovery.</strong> Developing independent recomputation, provenance checks, adversarial tests, and repeat-run comparisons, with authorization withheld when required checks fail.</li>
+          </ul>
+          <p class="entry-note">Related presentation: <a href="#mmls">A General Biomedical Agentic Framework</a> · MMLS 2026.</p>
+          <p class="status">Ongoing research; manuscript in preparation for submission to RECOMB 2027.</p>
+        </article>
+
+        <article class="research-entry" id="ma">
+          <div class="entry-top"><p class="entry-category">Multimodal learning · Healthcare AI</p><span class="date">Sep 2025–Aug 2026</span></div>
+          <h3>Multimodal EHR modeling &amp; clinical NLP</h3>
+          <p class="affiliation">Dr. Fenglong Ma · Penn State University</p>
+          <p>This project examines how clinical time series and text can be combined for prediction when some information is missing. My work focused on a modular learning pipeline, transformer-based fusion, and analysis of model reliability across different input conditions.</p>
+          <ul class="contributions">
+            <li><strong>Data and model pipelines.</strong> Standardized schemas and dataloaders for EHR time series and clinical text, with explicit support for missing modalities through dropout and imputation.</li>
+            <li><strong>Multimodal fusion.</strong> Modality-specific encoders and a masked-attention fusion transformer, with a shared configuration and training interface for comparisons against single-modality, early-fusion, and late-fusion baselines.</li>
+            <li><strong>Reliability and interpretation.</strong> Evaluation work covering calibration, modality and feature attribution, ablations, and robustness to missing inputs and distribution shift.</li>
+          </ul>
+          <p class="entry-note">Supported in Summer 2026 by the <a href="#sure">SURE fellowship</a> under Dr. Ma.</p>
+        </article>
+
+        <article class="research-entry" id="saha">
+          <div class="entry-top"><p class="entry-category">Explainable AI · Computer vision</p><span class="date">Nov 2024–Aug 2025</span></div>
+          <h3>Explainable gait abnormality detection</h3>
+          <p class="affiliation">Dr. Suman Saha · Penn State University</p>
+          <p>I worked on CNN-LSTM models for gait analysis using the GAVD and OU-MVLP datasets. The study uses joint-based features and silhouette sequences, with SHAP and Grad-CAM to examine the temporal and spatial information informing predictions.</p>
+          <ul class="contributions">
+            <li>Developed PyTorch training pipelines and compared classical machine-learning and deep-learning baselines.</li>
+            <li>Prepared sequence data, addressed class imbalance with SMOTE and loss weighting, and evaluated on unseen identities.</li>
+          </ul>
+          <div class="entry-links"><a href="https://arxiv.org/abs/2509.16472">Read the paper</a><a href="#gait-paper">Publication details</a></div>
+        </article>
+
+        <article class="research-entry compact" id="security">
+          <div class="entry-top"><p class="entry-category">Earlier research · Systems security</p><span class="date">Dec 2023–Aug 2025</span></div>
+          <h3>Cellular and IoT security</h3>
+          <p class="affiliation">Dr. Syed Rafiul Hussain · Systems and Network Security Lab, Penn State</p>
+          <p>As a research volunteer, I used AFL, AFL++, AFLNet, and LibAFL for vulnerability analysis and testing in cellular and IoT systems, including C++ and Python tooling in virtual-machine environments.</p>
+        </article>
+
+        <aside class="research-direction" aria-labelledby="direction-title">
+          <p class="entry-category">Planned thesis research</p>
+          <h3 id="direction-title">Reliable adaptation under distribution shift</h3>
+          <p>I am interested in estimating, without target labels, whether adapting a pretrained model will improve or degrade its performance. The planned direction explores reliability signals for deciding when to adapt and when to retain the original model.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><h2 id="publications-title">Publications &amp; <br>presentations</h2><p>Papers &amp; posters</p></div>
+      <div class="section-content">
+        <article class="publication" id="mmls">
+          <div class="entry-top"><p class="entry-category">Conference poster</p><span class="date">2026</span></div>
+          <h3>A General Biomedical Agentic Framework</h3>
+          <p class="authors"><strong>Parth Agarwal</strong> and Haohan Wang</p>
+          <p class="venue">Midwest Machine Learning Symposium (MMLS), Purdue University · June 2026</p>
+          <p>Poster presented on biomedical agentic AI and scientific workflows.</p>
+        </article>
+        <article class="publication" id="gait-paper">
+          <div class="entry-top"><p class="entry-category">Conference paper</p><span class="date">2025</span></div>
+          <h3><a href="https://arxiv.org/abs/2509.16472">Explainable Gait Abnormality Detection Using Dual-Dataset CNN-LSTM Models</a></h3>
+          <p class="authors"><strong>Parth Agarwal</strong>, Sangaa Chatterjee, Md Faisal Kabir, and Suman Saha</p>
+          <p class="venue">IEEE International Conference on Machine Learning and Applications (ICMLA), 2025</p>
+          <div class="entry-links"><a href="https://arxiv.org/abs/2509.16472">arXiv:2509.16472</a><a href="https://arxiv.org/pdf/2509.16472">Paper PDF</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="honors" aria-labelledby="honors-title">
+      <div class="section-heading"><h2 id="honors-title">Honors &amp; <br>research funding</h2></div>
+      <div class="section-content">
+        <article class="record">
+          <div class="entry-top"><h3>College of Engineering Research Funding</h3><span class="date">2026–2027</span></div>
+          <p class="affiliation">Penn State University</p>
+          <p>Selected for a donor-funded undergraduate research award providing <strong>$4,000</strong> in support across Fall 2026 and Spring 2027.</p>
+        </article>
+        <article class="record" id="sure">
+          <div class="entry-top"><h3>Summer Undergraduate Research Experience</h3><span class="date">May–Jul 2026</span></div>
+          <p class="affiliation">SURE · Eberly College of Science, Penn State University</p>
+          <p>Funded, ten-week, full-time research fellowship under <strong>Dr. Fenglong Ma</strong> in multimodal clinical machine learning. The fellowship involved literature review, hypothesis development, controlled experimentation, and ablation and error analysis.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><h2 id="experience-title">Technical <br>experience</h2><p>Applied work &amp; engineering</p></div>
+      <div class="section-content">
+        <article class="record">
+          <div class="entry-top"><h3>Solutions Engineer</h3><span class="date">May–Dec 2025</span></div>
+          <p class="affiliation">Penn State Nittany AI Advance</p>
+          <p>Built a student intake and advising workflow for Penn State Undergraduate Education using Azure and Power Automate, including routing, status tracking, and advisor notifications. Developed Python tools for validation, cleaning, and structured records, and refined the solution through stakeholder demos, testing, and documentation.</p>
+        </article>
+        <article class="record">
+          <div class="entry-top"><h3>Guidance, Navigation &amp; Controls</h3><span class="date">Dec 2023–Aug 2025</span></div>
+          <p class="affiliation">Penn State Advanced Vehicle Team · SAE AutoDrive Challenge II</p>
+          <p>Contributed to an autonomous vehicle targeting SAE Level 4 driving. Work included an NVIDIA Jetson-based human–machine interface, integration with vehicle subsystems through ROS, and high-definition mapping for navigation.</p>
+          <p class="entry-note">Team results, Year 3: <strong>3rd overall</strong>, <strong>2nd in the Intersection Challenge</strong>, and <strong>2nd in the Construction Challenge</strong>.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="teaching" aria-labelledby="teaching-title">
+      <div class="section-heading"><h2 id="teaching-title">Teaching &amp; <br>academic service</h2><p>Penn State University</p></div>
+      <div class="section-content teaching-list">
+        <article class="teaching-entry"><div><h3>DS 420 · Network Analytics</h3><p class="affiliation">Teaching Assistant</p><p>Graph and network analytics, community detection, information propagation, and network embeddings.</p></div><span class="date">Aug 2026–Present</span></article>
+        <article class="teaching-entry"><div><h3>IST 242 · Intermediate &amp; Object-Oriented Application Development</h3><p class="affiliation">Teaching Assistant</p><p>Object-oriented programming, data structures, reusable libraries, APIs, and debugging.</p></div><span class="date">Aug 2026–Present</span></article>
+        <article class="teaching-entry"><div><h3>Mathematics Peer Tutoring</h3><p class="affiliation">Penn State Learning Resource Center</p><p>Individual and small-group support in calculus, sequences and series, and introductory proofs.</p></div><span class="date">Aug 2025–Present</span></article>
+        <article class="teaching-entry"><div><h3>DS 200 · Introduction to Data Science</h3><p class="affiliation">Learning Assistant</p><p>Data analysis, visualization, statistical reasoning, and Python/R workflows.</p></div><span class="date">Jan–May 2026</span></article>
+        <article class="teaching-entry"><div><h3>CMPSC 465 · Data Structures and Algorithms</h3><p class="affiliation">Grader</p><p>Programming assignments and proofs covering asymptotics, graph algorithms, dynamic programming, and NP-completeness.</p></div><span class="date">Aug–Dec 2025</span></article>
+        <article class="teaching-entry"><div><h3>CMPSC 132 · Programming and Computation II</h3><p class="affiliation">Learning Assistant</p><p>Data structures, programming support, and student problem-solving.</p></div><span class="date">Dec 2023–Aug 2024</span></article>
+        <article class="teaching-entry"><div><h3>MATH 141 · Calculus with Analytic Geometry II</h3><p class="affiliation">Learning Assistant</p><p>Integration, sequences and series, small-group discussions, and office hours.</p></div><span class="date">Dec 2023–Aug 2024</span></article>
+        <div class="professional-service"><h3>Professional service</h3><p><strong>Program Committee Member</strong> · IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026).</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="news" aria-labelledby="news-title">
+      <div class="section-heading"><h2 id="news-title">Recent updates</h2></div>
+      <div class="section-content"><ul class="news-list">
+        <li><span class="date">Sep 2026</span><p>Received Penn State College of Engineering research funding for the 2026–2027 academic year.</p></li>
+        <li><span class="date">Jun 2026</span><p>Presented <em>A General Biomedical Agentic Framework</em> at MMLS at Purdue University.</p></li>
+        <li><span class="date">May 2026</span><p>Began research with Dr. Haohan Wang at UIUC and the SURE fellowship under Dr. Fenglong Ma at Penn State.</p></li>
+      </ul></div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading"><h2 id="contact-title">Contact</h2></div>
+      <div class="section-content"><p>I welcome conversations about research collaborations and Fall 2027 PhD opportunities.</p><a class="email-link" href="mailto:parthagarwalag@gmail.com">parthagarwalag@gmail.com</a><div class="entry-links"><a href="Parth_Agarwal_CV.pdf">CV (PDF)</a><a href="https://github.com/parthagarwal-dev">GitHub</a><a href="https://www.linkedin.com/in/parth-agarwal">LinkedIn</a></div></div>
     </section>
   </main>
-
-  <footer>
-    <div class="container">
-      <p>© 2026 Parth Agarwal · Hosted with GitHub Pages</p>
-    </div>
-  </footer>
+  <footer class="page footer"><span>© 2026 Parth Agarwal</span><a href="#top">Back to top</a></footer>
 </body>
 </html>

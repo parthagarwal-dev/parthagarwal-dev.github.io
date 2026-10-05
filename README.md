@@ -1,59 +1,38 @@
 # Parth Agarwal — Academic Website
 
-Personal academic website for Parth Agarwal, hosted with GitHub Pages.
+Static academic website for the existing GitHub Pages repository `parthagarwal-dev.github.io`.
 
-## Publish this site
+## Update the existing site
 
-Your GitHub username is:
+1. Open the existing repository on GitHub.
+2. Choose **Add file → Upload files**.
+3. Upload the files inside this folder to the repository root. Upload the files themselves, not the ZIP or an enclosing folder.
+4. Replace `index.html`, `styles.css`, and `README.md` with the revised versions and commit the changes.
+5. Keep `Parth_Agarwal_CV.pdf`, `robots.txt`, and `sitemap.xml` at the root. Copies are included for a complete package.
 
-`parthagarwal-dev`
+The existing GitHub Pages configuration can continue to serve the repository. After deployment completes, reload the website. If old styles remain cached, use a hard refresh.
 
-So the repository MUST be named exactly:
+## Files
 
-`parthagarwal-dev.github.io`
+- `index.html` — all page content; starts with Dr. Haohan Wang, then Dr. Fenglong Ma, then Dr. Suman Saha and the paper link.
+- `styles.css` — responsive typography and layout; no JavaScript, external fonts, or build step required.
+- `Parth_Agarwal_CV.pdf` — supplied CV, unchanged. Linked at the repository root.
+- `robots.txt` and `sitemap.xml` — existing indexing files, unchanged.
 
-### GitHub website steps
+## Content notes
 
-1. Sign in to GitHub.
-2. Click **New repository**.
-3. Repository name:
-   `parthagarwal-dev.github.io`
-4. Make the repository **Public**.
-5. Create the repository.
-6. Upload the contents of this folder to the ROOT of the repository.
-   `index.html` must be at the repository root — not inside another folder.
-7. Open the repository's **Settings → Pages**.
-8. Under Build and deployment choose:
-   - Source: **Deploy from a branch**
-   - Branch: **main**
-   - Folder: **/(root)**
-9. Save.
+- The supplied CV dates the Fenglong Ma research appointment September 2025–August 2026. This version preserves those dates and uses past tense. Update the date and wording together if the appointment is ongoing.
+- The site uses “Dr.” throughout its prose. The original PDF is unchanged.
+- The gait paper title follows arXiv: **Explainable Gait Abnormality Detection Using Dual-Dataset CNN-LSTM Models** (plural “Models”). Source: https://arxiv.org/abs/2509.16472.
+- Ongoing scientific-agent work and the planned adaptation thesis are labeled by status. The in-preparation manuscript is described within the research entry rather than listed as a published paper.
+- EHR research descriptions do not claim numerical improvements, completed clinical deployment, or patient outcomes.
+- AutoDrive placements are attributed to the team. No competition year is inferred from the conflicting “Year 3 / June 2024” wording in the CV.
+- SURE appears briefly with the associated research and is described separately under Honors & Research Funding.
+- Teaching, tutoring, grading, professional service, Nittany AI Advance, and AutoDrive are included.
+- No headshot, unpublished poster, or private repository link has been invented.
 
-Your website should then be available at:
+## Editing
 
-https://parthagarwal-dev.github.io/
+Edit the corresponding semantic section in `index.html`. Anchor IDs are stable: `research`, `wang`, `ma`, `saha`, `publications`, `honors`, `sure`, `experience`, `teaching`, `news`, and `contact`.
 
-It may take a few minutes after the first deployment.
-
-## Files already included
-
-- `index.html`
-- `styles.css`
-- `robots.txt`
-- `sitemap.xml`
-- `assets/Parth_Agarwal_CV.pdf`
-
-## Still optional / recommended
-
-- Add a professional headshot.
-- Add a Google Scholar link when available.
-- Add project/repository links once public.
-- Add a public link to the MMLS poster if desired.
-- Update the planned-thesis section as the project becomes formalized.
-- Add the RECOMB manuscript link only after a public preprint/project page exists.
-
-## Custom domain
-
-A custom domain is optional. The GitHub Pages URL works normally and can be indexed by Google.
-
-If you later buy a domain, it can be connected to this same GitHub Pages site without rebuilding it.
+Open `index.html` directly to preview locally, or run `python3 -m http.server 8000` from this folder and visit `http://localhost:8000`.
