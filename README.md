@@ -1,38 +1,64 @@
 # Parth Agarwal — Academic Website
 
-Static academic website for the existing GitHub Pages repository `parthagarwal-dev.github.io`.
+Static academic portfolio for the existing GitHub Pages repository `parthagarwal-dev.github.io`.
 
-## Update the existing site
+## Update GitHub Pages
 
-1. Open the existing repository on GitHub.
-2. Choose **Add file → Upload files**.
-3. Upload the files inside this folder to the repository root. Upload the files themselves, not the ZIP or an enclosing folder.
-4. Replace `index.html`, `styles.css`, and `README.md` with the revised versions and commit the changes.
-5. Keep `Parth_Agarwal_CV.pdf`, `robots.txt`, and `sitemap.xml` at the root. Copies are included for a complete package.
+1. Extract `parth-academic-website.zip`.
+2. Open your existing `parthagarwal-dev.github.io` repository on GitHub and choose **Add file → Upload files**.
+3. Upload **all the extracted files and the entire `assets` folder** into the repository root. Do not upload the ZIP itself or place the website inside an extra enclosing folder.
+4. Commit the changes. This update includes four new research pages and images, so replacing only `index.html` and `styles.css` is insufficient.
+5. Wait for the repository's Pages deployment to finish in **Actions**, then reload your website. If an old version remains visible, hard-refresh the page.
 
-The existing GitHub Pages configuration can continue to serve the repository. After deployment completes, reload the website. If old styles remain cached, use a hard refresh.
+Keep the existing GitHub Pages configuration. No production build or JavaScript runtime is required; Pages serves the HTML and CSS directly. The included CV is unchanged.
 
-## Files
+## Website files
 
-- `index.html` — all page content; starts with Dr. Haohan Wang, then Dr. Fenglong Ma, then Dr. Suman Saha and the paper link.
-- `styles.css` — responsive typography and layout; no JavaScript, external fonts, or build step required.
-- `Parth_Agarwal_CV.pdf` — supplied CV, unchanged. Linked at the repository root.
-- `robots.txt` and `sitemap.xml` — existing indexing files, unchanged.
+- `index.html`: concise introduction; prominent Fall 2027 PhD availability; research summaries; publications and presentations; AVT; honors and funding; technical experience; teaching and service; updates and contact.
+- `research-agents.html`: scientific-agent research with Dr. Haohan Wang, technical contributions, and RECOMB 2027 submission status.
+- `research-ehr.html`: multimodal EHR research with Dr. Fenglong Ma and the SURE fellowship.
+- `research-gait.html`: explainable gait research with Dr. Suman Saha, with the ICMLA 2025 paper link.
+- `research-security.html`: SyNSec work with Dr. Syed Rafiul Hussain and NSF-supported research contribution.
+- `styles.css`: shared responsive styles.
+- `assets/`: AVT team photograph and three original explanatory SVG diagrams.
+- `Parth_Agarwal_CV.pdf`: supplied CV, unchanged.
+- `sitemap.xml`: all five public pages.
+- `robots.txt`: indexing configuration.
+- `package.json`, `package-lock.json`, and `vite.config.js`: optional local preview tooling, not required by GitHub Pages.
 
-## Content notes
+## Content and status notes
 
-- The supplied CV dates the Fenglong Ma research appointment September 2025–August 2026. This version preserves those dates and uses past tense. Update the date and wording together if the appointment is ongoing.
-- The site uses “Dr.” throughout its prose. The original PDF is unchanged.
-- The gait paper title follows arXiv: **Explainable Gait Abnormality Detection Using Dual-Dataset CNN-LSTM Models** (plural “Models”). Source: https://arxiv.org/abs/2509.16472.
-- Ongoing scientific-agent work and the planned adaptation thesis are labeled by status. The in-preparation manuscript is described within the research entry rather than listed as a published paper.
-- EHR research descriptions do not claim numerical improvements, completed clinical deployment, or patient outcomes.
-- AutoDrive placements are attributed to the team. No competition year is inferred from the conflicting “Year 3 / June 2024” wording in the CV.
-- SURE appears briefly with the associated research and is described separately under Honors & Research Funding.
-- Teaching, tutoring, grading, professional service, Nittany AI Advance, and AutoDrive are included.
-- No headshot, unpublished poster, or private repository link has been invented.
+- Faculty appear in the requested order: Wang, Ma, then Saha. Their names link to official personal sites or faculty profiles. Hussain is linked in the security project.
+- RECOMB 2027 is labeled **“Manuscript under submission”**, following the supplied status. It is not described as accepted or published. No unpublished manuscript title or public paper link has been invented. Update the status when it changes.
+- The supplied CV dates the Ma research appointment September 2025–August 2026. These dates and past-tense wording are preserved. The SURE fellowship is identified separately as May–July 2026.
+- The NSF item is **recognized research contributor to an NSF-supported project**, not a personal NSF grant or fellowship award. The recognition follows the supplied CV; the linked public records verify the award and project rather than an individual contributor roster.
+- The gait paper title follows arXiv: **Explainable Gait Abnormality Detection Using Dual-Dataset CNN-LSTM Models**. https://arxiv.org/abs/2509.16472
+- The diagrams explain research approaches. They are not experimental results, clinical outcome claims, or official conference figures. They can be opened at full size from the project pages.
+- The planned adaptation thesis remains clearly labeled as a planned direction.
+- Teaching, tutoring, grading, ICTAI service, Nittany AI Advance, SURE, College of Engineering funding, and AVT are retained.
 
-## Editing
+## AVT image and results
 
-Edit the corresponding semantic section in `index.html`. Anchor IDs are stable: `research`, `wang`, `ma`, `saha`, `publications`, `honors`, `sure`, `experience`, `teaching`, `news`, and `contact`.
+The AVT section includes a 2024 team photograph and links to the team's website and Penn State's report, which names Parth Agarwal among the competition team members.
 
-Open `index.html` directly to preview locally, or run `python3 -m http.server 8000` from this folder and visit `http://localhost:8000`.
+- Team: https://www.avt.psu.edu/
+- Penn State report: https://news.engr.psu.edu/2024/avt-2024-autodrive-challenge-ii.aspx
+- Image source: https://news.engr.psu.edu/assets/images/2024/avt-2024-autodrive-challenge-ii.jpg
+- Photo credit: Penn State Advanced Vehicle Team, via Penn State Engineering. The photograph retains the original owner's rights.
+- SAE results: https://www.autodrivechallenge.com/cdsweb/app/NewsItem.aspx?NewsItemID=553b141f-8523-47a6-88ed-416850410eab
+
+The site includes the consistent results: **third overall** and **second in Intersection** for AutoDrive Challenge II Year 3 (2024). Construction placement is omitted pending clarification: the supplied CV says second, Penn State's report says third, and SAE's published podium lists other teams. Competition results are attributed to the team.
+
+## NSF references
+
+- Award 2215017: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2215017
+- Penn State project record: https://pure.psu.edu/en/projects/collaborative-research-cns-core-large-systems-and-verifiable-metr/
+- Project: **Collaborative Research: CNS Core: Large: Systems and Verifiable Metrics for Sustainable Data Centers**.
+
+## Editing and preview
+
+Edit the relevant HTML page directly. Shared styling is in `styles.css`. Preserve the `assets` directory and relative file paths.
+
+Homepage anchors include `research`, `wang`, `ma`, `saha`, `security`, `publications`, `avt`, `honors`, `sure`, `experience`, `teaching`, `news`, and `contact`.
+
+For a local preview, open `index.html` in a browser, or install the optional preview dependencies with `npm ci` and run `npm run dev`. Follow the local URL printed by Vite. Do not upload `node_modules`.

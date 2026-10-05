@@ -106,8 +106,8 @@ h1 { font-size: 3.35rem; letter-spacing: -.045em; line-height: 1.04; margin: 0 0
   h1 { font-size: 2.9rem; margin-bottom: 16px; }
   h1 br { display: none; }
   h1 br::after { content: " "; }
-  .profile-degree br, .profile-meta br { display: none; }
-  .profile-degree br::after, .profile-meta br::after { content: " "; }
+  .profile-degree br { display: none; }
+  .profile-degree br::after { content: " "; }
   .profile-degree, .profile-meta { margin-bottom: 8px; }
   .profile-links { margin-top: 15px; }
   .intro { font-size: 1rem; }
@@ -132,4 +132,86 @@ h1 { font-size: 3.35rem; letter-spacing: -.045em; line-height: 1.04; margin: 0 0
   h3 { break-after: avoid; }
   .research-entry, .publication, .record, .teaching-entry { break-inside: avoid; }
   a { color: inherit; text-decoration: none; }
+}
+
+/* Expanded research portfolio */
+.phd-banner { margin-top: 25px; padding: 17px 22px; border-left: 3px solid var(--accent); background: var(--soft); display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.phd-banner .eyebrow { display: block; margin-bottom: 3px; font-size: .6875rem; }
+.phd-banner p { margin: 0; color: var(--ink); font-size: 1.0625rem; }
+.phd-banner > a { font-size: .875rem; white-space: nowrap; }
+.about { padding-block: 40px 44px; }
+.research-section, .avt-section { display: block; }
+.wide-heading { display: flex; justify-content: space-between; gap: 30px; align-items: flex-end; margin-bottom: 23px; }
+.wide-heading .eyebrow { margin-bottom: 6px; }
+.wide-heading h2 { font-size: 2rem; line-height: 1.2; margin: 0; letter-spacing: -.025em; }
+.wide-heading > p { max-width: 380px; color: var(--muted); margin: 0; font-size: .875rem; }
+.project-jumps { justify-content: flex-start; gap: 22px; padding: 13px 0; border-block: 1px solid var(--line); margin-bottom: 8px; }
+.project-jumps a { color: var(--accent); }
+.project-feature { display: grid; grid-template-columns: minmax(0,1fr) 345px; gap: 35px; padding-block: 33px; border-bottom: 1px solid var(--line); align-items: start; }
+.project-feature:last-child { border-bottom: 0; padding-bottom: 0; }
+.project-feature h3 { font: 400 1.55rem/1.25 var(--serif); margin-bottom: 10px; }
+.project-feature h3 a { color: var(--ink); text-decoration: none; }
+.project-feature h3 a:hover { color: var(--accent); text-decoration: underline; }
+.project-feature .affiliation { margin-bottom: 10px; }
+.project-feature .contributions { font-size: .9375rem; margin-bottom: 0; }
+.project-status { display: inline-block; color: var(--accent); background: #f4eaf0; border: 1px solid #e5d5dc; padding: 4px 9px; margin: 0 0 17px; font-size: .8125rem; line-height: 1.5; font-weight: 600; }
+.project-visual { margin: 47px 0 0; }
+.project-visual img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.detail-link { font-weight: 600; }
+.funding-visual { margin-top: 45px; background: #f7f5f7; padding: 26px; border: 1px solid var(--line); }
+.funding-visual > span:first-child { font: 400 2rem var(--serif); color: var(--accent); }
+.funding-visual p { margin: 9px 0 16px; }
+.funding-visual hr { border: 0; border-top: 1px solid #ddd3dc; margin-bottom: 16px; }
+.funding-visual .funding-label { display: block; font-size: .8125rem; color: var(--muted); }
+.funding-visual > strong { font: 400 1.65rem var(--serif); }
+.avt-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 34px; align-items: start; }
+.avt-photo { margin: 0; }
+.avt-photo img { width: 100%; height: auto; display: block; }
+figcaption { font-size: .75rem; line-height: 1.6; color: var(--muted); margin-top: 9px; }
+.avt-copy h3 { margin-bottom: 12px; }
+.avt-copy .contributions { font-size: .9375rem; }
+.avt-results { display: grid; grid-template-columns: 1fr 1fr 1.5fr; gap: 22px; padding-block: 19px; margin-top: 20px; border-block: 1px solid var(--line); }
+.avt-results strong { display: block; font: 400 1.45rem var(--serif); color: var(--accent); }
+.avt-results span { display: block; font-size: .8125rem; margin-top: 8px; color: var(--muted); }
+.avt-results .press-note strong { font: 600 .9375rem/1.5 var(--sans); color: var(--ink); }
+.project-page { max-width: 920px; padding-top: 33px; padding-bottom: 60px; }
+.back-link { font-size: .875rem; }
+.project-header { margin-block: 26px 30px; max-width: 850px; }
+.project-header h1 { font-size: 2.9rem; line-height: 1.1; margin: 10px 0 20px; letter-spacing: -.035em; }
+.project-header .affiliation { margin-bottom: 18px; }
+.project-lead { font-size: 1.18rem; color: var(--ink); max-width: 780px; }
+.detail-figure { margin: 0 0 36px; }
+.detail-figure img { width: 100%; height: auto; display: block; border: 1px solid var(--line); }
+.project-prose { max-width: 780px; margin-inline: auto; }
+.project-prose h2 { font-size: 1.65rem; line-height: 1.3; margin: 34px 0 15px; }
+.project-prose h3 { font-size: 1.08rem; margin-top: 22px; }
+.project-end { display: flex; flex-wrap: wrap; gap: 25px; border-top: 1px solid var(--line); padding-top: 25px; margin-top: 35px; font-size: .9375rem; }
+@media (max-width: 980px) {
+ .project-feature { grid-template-columns: minmax(0,1fr) 280px; gap: 25px; }
+ .avt-layout { gap: 25px; }
+}
+@media (max-width: 760px) {
+ .phd-banner { padding: 14px 16px; margin-top: 20px; align-items: flex-start; }
+ .phd-banner > a { display: none; }
+ .about { padding-block: 31px; }
+ .wide-heading { display: block; }
+ .wide-heading > p { margin-top: 12px; }
+ .wide-heading h2 { font-size: 1.8rem; }
+ .project-jumps { gap: 4px 19px; }
+ .project-feature { grid-template-columns: minmax(0,1fr); gap: 20px; padding-block: 28px; }
+ .project-visual, .funding-visual { margin-top: 0; }
+ .project-feature h3 { font-size: 1.45rem; }
+ .funding-visual { padding: 20px; }
+ .funding-visual p br { display: none; }
+ .avt-layout { grid-template-columns: minmax(0,1fr); }
+ .avt-results { grid-template-columns: 1fr 1fr; }
+ .avt-results .press-note { grid-column: 1 / -1; }
+ .project-header h1 { font-size: 2.15rem; }
+ .project-page { padding-top: 25px; }
+}
+@media print {
+ .phd-banner, .project-jumps { display: none; }
+ .project-feature, .avt-layout { grid-template-columns: 1fr; }
+ .project-visual { max-width: 400px; margin-top: 5px; }
+ .project-page { max-width: none; }
 }
