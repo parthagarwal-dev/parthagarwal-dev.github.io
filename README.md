@@ -62,3 +62,16 @@ Edit the relevant HTML page directly. Shared styling is in `styles.css`. Preserv
 Homepage anchors include `research`, `wang`, `ma`, `saha`, `security`, `publications`, `avt`, `honors`, `sure`, `experience`, `teaching`, `news`, and `contact`.
 
 For a local preview, open `index.html` in a browser, or install the optional preview dependencies with `npm ci` and run `npm run dev`. Follow the local URL printed by Vite. Do not upload `node_modules`.
+
+
+## October 6 academic portfolio update
+
+- Teaching now features the two current teaching assistant appointments, followed by tutoring and previous course appointments. Each course links to its official description. Course titles follow the Penn State catalogue.
+- Professional service has its own section and navigation link. The ICTAI 2026 committee page explicitly lists Parth Agarwal, Pennsylvania State University: https://ictai.computer.org/2026/program-committee-members/
+- Engineering funding is highlighted as a $4,000 research award. Competitive selection and recognition of research potential follow the supplied CV; no acceptance rate, ranking, or specific donor name has been inferred. The general engineering research link provides institutional context, not an individual award announcement.
+- SURE highlights selection for a funded, ten-week full-time research fellowship and links to the official program. The program website currently describes a later application cycle; the portfolio retains the supplied 2026 fellowship dates and does not infer a personal stipend amount from that page.
+- Research interests connect scientific agents, multimodal clinical learning, and reliability/interpretability to the existing projects.
+- The uploaded MMLS poster is included unchanged as `MMLS_Poster_Parth_Ag.pdf`, with a rendered preview at `assets/mmls-poster-2026.jpg`. The displayed title now follows the poster itself: “General-Purpose Agentic Framework for Biomedical Research.” MMLS 2026 was held June 24–25 at Purdue: https://midwest-ml.org/2026/
+- Nittany AI Advance now includes the program link, project partner, technical responsibilities, and delivery details from the supplied CV. Its description does not claim a public project repository or measurable outcomes that were not supplied. Program: https://nittanyai.psu.edu/programs/advance
+
+Upload the revised HTML files, `styles.css`, and the poster PDF to the repository root; upload the new poster preview inside `assets`. The complete ZIP also includes all earlier site assets. Keep the folder structure intact.

@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://parthagarwal-dev.github.io/">
   <link rel="canonical" href="https://parthagarwal-dev.github.io/">
   <title>Parth Agarwal | Research</title>
-  <link rel="stylesheet" href="styles.css?v=20261005b">
+  <link rel="stylesheet" href="styles.css?v=20261006a">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -26,6 +26,8 @@
         <a href="#honors">Honors</a>
         
         <a href="#teaching">Teaching</a>
+        <a href="#service">Service</a>
+        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
         <a href="Parth_Agarwal_CV.pdf">CV <span class="file-label">PDF</span></a>
       </nav>
@@ -54,6 +56,16 @@
       </div>
     </section>
 
+<section class="section interests-section" id="interests" aria-labelledby="interests-title">
+  <div class="wide-heading"><div><p class="eyebrow">Research interests</p><h2 id="interests-title">Reliable AI for science and health</h2></div></div>
+  <p class="interest-lead">I am interested in developing methods that make AI systems dependable when tasks are open-ended, inputs are incomplete, and the cost of an incorrect result matters.</p>
+  <div class="interest-grid">
+    <article><h3>Verifiable agents &amp; AI for science</h3><p>Structured planning, reusable scientific tools, and independent verification that make agent reasoning and computational results traceable.</p><a href="research-agents.html">Scientific-agent research</a></article>
+    <article><h3>Multimodal learning for healthcare</h3><p>Learning from clinical text and EHR time series, with an emphasis on missing modalities, calibrated predictions, and robust fusion.</p><a href="research-ehr.html">Multimodal EHR research</a></article>
+    <article><h3>Reliability &amp; interpretability</h3><p>Understanding model behavior and recognizing when predictions or adaptation may fail under changes in data and deployment conditions.</p><a href="research-gait.html">Explainable gait research</a></article>
+  </div>
+</section>
+
     <section class="section research-section" id="research" aria-labelledby="research-title">
       <div class="wide-heading"><div><p class="eyebrow">Research experience</p><h2 id="research-title">Research projects</h2></div><p>Agentic AI, multimodal learning, explainability, and systems security.</p></div>
       <nav class="project-jumps" aria-label="Research projects"><a href="#wang">Scientific agents</a><a href="#ma">Multimodal EHR</a><a href="#saha">Gait analysis</a><a href="#security">SyNSec &amp; NSF</a></nav>
@@ -63,13 +75,15 @@
     <section class="section" id="publications" aria-labelledby="publications-title">
       <div class="section-heading"><h2 id="publications-title">Publications &amp; <br>presentations</h2><p>Papers &amp; posters</p></div>
       <div class="section-content">
-        <article class="publication" id="mmls">
-          <div class="entry-top"><p class="entry-category">Conference poster</p><span class="date">2026</span></div>
-          <h3>A General Biomedical Agentic Framework</h3>
-          <p class="authors"><strong>Parth Agarwal</strong> and Haohan Wang</p>
-          <p class="venue">Midwest Machine Learning Symposium (MMLS), Purdue University · June 2026</p>
-          <p>Poster presented on biomedical agentic AI and scientific workflows.</p>
-        </article>
+        <article class="publication poster-publication" id="mmls">
+ <div class="entry-top"><p class="entry-category">Conference poster · MMLS 2026</p><span class="date">June 24–25, 2026</span></div>
+ <div class="poster-summary"><div><h3><a href="MMLS_Poster_Parth_Ag.pdf">General-Purpose Agentic Framework for Biomedical Research</a></h3>
+ <p class="authors"><strong>Parth Agarwal</strong> and <a href="https://haohanwang.ischool.illinois.edu/">Haohan Wang</a></p>
+ <p class="venue"><a href="https://midwest-ml.org/2026/">Midwest Machine Learning Symposium (MMLS)</a><br>Purdue University · West Lafayette, Indiana</p>
+ <p>A planner–router–verifier framework for reusable biomedical analysis, with a gene regulatory network case study and evaluation presented in the poster.</p>
+ <div class="entry-links"><a class="detail-link" href="MMLS_Poster_Parth_Ag.pdf">View poster (PDF)</a><a href="https://midwest-ml.org/2026/">MMLS 2026</a></div></div>
+ <figure class="poster-thumb"><a href="MMLS_Poster_Parth_Ag.pdf" aria-label="Open the MMLS 2026 research poster PDF"><img src="assets/mmls-poster-2026.jpg" width="1200" height="900" alt="MMLS 2026 poster showing the planner–router–verifier architecture, a gene regulatory network case study, and evaluation plots." loading="lazy"></a><figcaption>Select the poster to read it at full size.</figcaption></figure></div>
+</article>
         <article class="publication" id="gait-paper">
           <div class="entry-top"><p class="entry-category">Conference paper</p><span class="date">2025</span></div>
           <h3><a href="https://arxiv.org/abs/2509.16472">Explainable Gait Abnormality Detection Using Dual-Dataset CNN-LSTM Models</a></h3>
@@ -82,54 +96,53 @@
 
 <section class="section avt-section" id="avt" aria-labelledby="avt-title"><div class="wide-heading"><div><p class="eyebrow">Autonomous systems · Applied engineering</p><h2 id="avt-title">Advanced Vehicle Team (AVT)</h2></div><p>Guidance, Navigation &amp; Controls<br><span class="date">Dec 2023–Aug 2025</span></p></div><div class="avt-layout"><figure class="avt-photo"><img src="assets/avt-team-2024.jpg" alt="Penn State Advanced Vehicle Team standing beside its autonomous passenger vehicle in the team garage." width="1000" height="667" loading="lazy"><figcaption>2024 team photo. Credit: Penn State Advanced Vehicle Team, via <a href="https://news.engr.psu.edu/2024/avt-2024-autodrive-challenge-ii.aspx">Penn State Engineering</a>.</figcaption></figure><div class="avt-copy"><h3>SAE AutoDrive Challenge II</h3><p>I contributed to Penn State’s autonomous vehicle development for the competition sponsored by General Motors and SAE International. My work in Guidance, Navigation &amp; Controls focused on the software and interfaces supporting vehicle operation.</p><ul class="contributions"><li><strong>Human–machine interface:</strong> engineered an NVIDIA Jetson-based interface using MATLAB, Python, Java/JavaScript, and ROS to connect with autonomous-vehicle subsystems.</li><li><strong>Navigation and mapping:</strong> contributed to high-definition maps and software supporting vehicle localization and navigation.</li><li><strong>System integration:</strong> collaborated across the team to integrate and test components on a physical vehicle.</li></ul></div></div><div class="avt-results" aria-label="2024 team competition results"><div><strong>3rd overall</strong><span>AutoDrive Challenge II · Year 3</span></div><div><strong>2nd · Intersection</strong><span>2024 team result</span></div><div class="press-note"><strong>Featured in Penn State Engineering</strong><span>The university’s 2024 competition report names me on the team.</span></div></div><div class="entry-links"><a href="https://www.avt.psu.edu/">AVT team website</a><a href="https://news.engr.psu.edu/2024/avt-2024-autodrive-challenge-ii.aspx">2024 competition report</a></div></section>
 
-    <section class="section" id="honors" aria-labelledby="honors-title">
-      <div class="section-heading"><h2 id="honors-title">Honors, funding &amp; <br>recognition</h2></div>
-      <div class="section-content">
-        <article class="record">
-          <div class="entry-top"><h3>College of Engineering Research Funding</h3><span class="date">2026–2027</span></div>
-          <p class="affiliation">Penn State University</p>
-          <p>Selected for a donor-funded undergraduate research award providing <strong>$4,000</strong> in support across Fall 2026 and Spring 2027.</p>
-        </article>
-        <article class="record" id="sure">
-          <div class="entry-top"><h3>Summer Undergraduate Research Experience</h3><span class="date">May–Jul 2026</span></div>
-          <p class="affiliation">SURE · Eberly College of Science, Penn State University</p>
-          <p>Funded, ten-week, full-time research fellowship under <strong>Dr. Fenglong Ma</strong> in multimodal clinical machine learning. The fellowship involved literature review, hypothesis development, controlled experimentation, and ablation and error analysis.</p>
-        </article>
-        <article class="record"><h3>NSF-supported research contribution</h3><p class="affiliation">Systems and Network Security Lab · Penn State</p><p>Recognized contributor to research supported by <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2215017">NSF Award 2215017</a>, <em>Systems and Verifiable Metrics for Sustainable Data Centers</em>, under Dr. Syed Rafiul Hussain.</p><a href="research-security.html">Research and project details</a></article>
-      </div>
-    </section>
+    <section class="section honors-section" id="honors" aria-labelledby="honors-title">
+ <div class="wide-heading"><div><p class="eyebrow">Research support &amp; recognition</p><h2 id="honors-title">Honors &amp; research funding</h2></div><p>Selected awards supporting sustained undergraduate research.</p></div>
+ <div class="award-grid">
+  <article class="award-card" id="engineering-award"><div class="entry-top"><p class="entry-category">Selected award recipient</p><span class="date">2026–2027</span></div>
+   <p class="award-stat">$4,000 <span>research support</span></p><h3>College of Engineering Research Funding</h3><p class="affiliation">The Pennsylvania State University</p>
+   <p>Selected for a competitive, donor-funded undergraduate research award recognizing the strength and potential impact of my ongoing research. The award supports continued research across Fall 2026 and Spring 2027.</p>
+   <div class="entry-links"><a href="https://www.engr.psu.edu/undergraduate/student-experience/research.aspx">Engineering undergraduate research</a></div>
+  </article>
+  <article class="award-card" id="sure"><div class="entry-top"><p class="entry-category">Selected research fellow</p><span class="date">May–Jul 2026</span></div>
+   <p class="award-stat">10 weeks <span>funded, full-time research</span></p><h3>Summer Undergraduate Research Experience</h3><p class="affiliation">SURE · Eberly College of Science, Penn State</p>
+   <p>Selected for a faculty-mentored research fellowship under <a href="https://fenglong-ma.github.io/">Dr. Fenglong Ma</a>. I led a focused investigation in multimodal clinical machine learning, from literature synthesis and hypothesis development to controlled experiments, ablations, and error analysis.</p>
+   <div class="entry-links"><a href="https://science.psu.edu/science-engagement/undergraduate-research/summer-undergraduate-research-program">Official SURE program</a><a href="research-ehr.html">Fellowship research</a></div>
+  </article>
+ </div>
+ <article class="recognition-row"><div><p class="entry-category">NSF-supported research</p><h3>Recognized research contributor</h3><p class="affiliation">Systems and Network Security Lab · Penn State</p></div><div><p>Recognized contributor to research supported by <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2215017">NSF Award 2215017</a>, <em>Systems and Verifiable Metrics for Sustainable Data Centers</em>, under <a href="https://syed-rafiul-hussain.github.io/">Dr. Syed Rafiul Hussain</a>.</p><a href="research-security.html">Research and project details</a></div></article>
+</section>
 
     <section class="section" id="experience" aria-labelledby="experience-title">
-      <div class="section-heading"><h2 id="experience-title">Technical <br>experience</h2><p>Applied work &amp; engineering</p></div>
-      <div class="section-content">
-        <article class="record">
-          <div class="entry-top"><h3>Solutions Engineer</h3><span class="date">May–Dec 2025</span></div>
-          <p class="affiliation">Penn State Nittany AI Advance</p>
-          <p>Built a student intake and advising workflow for Penn State Undergraduate Education using Azure and Power Automate, including routing, status tracking, and advisor notifications. Developed Python tools for validation, cleaning, and structured records, and refined the solution through stakeholder demos, testing, and documentation.</p>
-        </article>
+ <div class="section-heading"><h2 id="experience-title">Technical<br> experience</h2><p>Applied software engineering</p></div>
+ <div class="section-content"><article class="experience-feature">
+  <div class="entry-top"><p class="entry-category">Solutions Engineer</p><span class="date">May–Dec 2025</span></div>
+  <h3><a href="https://nittanyai.psu.edu/programs/advance">Penn State Nittany AI Advance</a></h3>
+  <p class="affiliation">Project partner · Penn State Undergraduate Education</p>
+  <p class="program-context">Nittany AI Advance connects Penn State students with partner organizations through collaborative, AI-focused projects.</p>
+  <h4>Student intake &amp; advising workflow</h4><p>I built an end-to-end workflow to help advisors track student requests and coordinate follow-up, translating stakeholder needs into maintainable software.</p>
+  <ul class="contributions"><li><strong>Workflow engineering:</strong> implemented routing logic, case status tracking, and automated advisor notifications using Azure and Power Automate.</li><li><strong>Data quality:</strong> developed Python tools for validation, cleaning, and structured record generation to improve consistency and reduce manual back-and-forth.</li><li><strong>Delivery:</strong> refined the solution through stakeholder demonstrations, testing, and documentation, improving advisor visibility into request handling.</li></ul>
+  <p class="technical-stack"><strong>Tools:</strong> Azure · Power Automate · Python</p>
+  <div class="entry-links"><a href="https://nittanyai.psu.edu/programs/advance">Nittany AI Advance program</a><a href="https://nittanyai.psu.edu/">Nittany AI Alliance</a></div>
+ </article></div>
+</section>
 
-      </div>
-    </section>
+    <section class="section teaching-section" id="teaching" aria-labelledby="teaching-title">
+ <div class="wide-heading"><div><p class="eyebrow">Teaching &amp; mentorship</p><h2 id="teaching-title">Supporting students in computing and mathematics</h2></div><p>Penn State University</p></div>
+ <p class="teaching-intro">My teaching experience spans network analytics, application development, data science, algorithms, programming, and calculus.</p>
+ <h3 class="group-heading">Current teaching assistant appointments</h3><div class="teaching-feature-grid"><article class="teaching-feature"><div class="entry-top"><p class="role-badge">Teaching Assistant</p><span class="date">Aug 2026–Present</span></div><h3><a href="https://bulletins.psu.edu/search/?P=DS%20420"><span class="course-code">DS 420</span>Network Analytics</a></h3><p>Support instruction and student problem-solving in graph and network analytics. Help students implement and interpret community detection, information propagation, node/link classification, and network embedding methods.</p><a class="course-link" href="https://bulletins.psu.edu/search/?P=DS%20420">Course description</a></article><article class="teaching-feature"><div class="entry-top"><p class="role-badge">Teaching Assistant</p><span class="date">Aug 2026–Present</span></div><h3><a href="https://ist.psu.edu/learning/courses/ist/242"><span class="course-code">IST 242</span>Intermediate &amp; Object-Oriented Application Development</a></h3><p>Support instruction and student debugging in intermediate application development, including algorithms, data structures, object-oriented programming, reusable libraries, and APIs.</p><a class="course-link" href="https://ist.psu.edu/learning/courses/ist/242">Course description</a></article></div><div class="teaching-history"><h3 class="group-heading">Tutoring &amp; previous course appointments</h3>
+<article class="teaching-entry"><div><h4>Mathematics Peer Tutoring</h4><p class="affiliation">Penn State Learning Resource Center</p><p>Provide individual and small-group support in calculus, sequences and series, and introductory proofs.</p></div><span class="date">Aug 2025–Present</span></article><article class="teaching-entry"><div><h4><a href="https://bulletins.psu.edu/search/?P=DS%20200">DS 200 · Introduction to Data Sciences</a></h4><p class="affiliation">Learning Assistant</p><p>Facilitated weekly learning sessions and individualized support in data wrangling, visualization, exploratory analysis, and Python/R workflows. Provided feedback during class and office hours.</p><a class="course-link" href="https://bulletins.psu.edu/search/?P=DS%20200">Course description</a></div><span class="date">Jan–May 2026</span></article><article class="teaching-entry"><div><h4><a href="https://bulletins.psu.edu/search/?P=CMPSC%20465">CMPSC 465 · Data Structures and Algorithms</a></h4><p class="affiliation">Grader</p><p>Assessed programming assignments and proofs covering asymptotic analysis, graph algorithms, dynamic programming, and NP-completeness.</p><a class="course-link" href="https://bulletins.psu.edu/search/?P=CMPSC%20465">Course description</a></div><span class="date">Aug–Dec 2025</span></article><article class="teaching-entry"><div><h4><a href="https://bulletins.psu.edu/search/?P=CMPSC%20132">CMPSC 132 · Programming and Computation II: Data Structures</a></h4><p class="affiliation">Learning Assistant</p><p>Supported student problem-solving in programming and data structures.</p><a class="course-link" href="https://bulletins.psu.edu/search/?P=CMPSC%20132">Course description</a></div><span class="date">Dec 2023–Aug 2024</span></article><article class="teaching-entry"><div><h4><a href="https://bulletins.psu.edu/search/?P=MATH%20141">MATH 141 · Calculus with Analytic Geometry II</a></h4><p class="affiliation">Learning Assistant</p><p>Supported learning in integration, sequences and series through small-group discussions and office hours.</p><a class="course-link" href="https://bulletins.psu.edu/search/?P=MATH%20141">Course description</a></div><span class="date">Dec 2023–Aug 2024</span></article></div></section>
 
-    <section class="section" id="teaching" aria-labelledby="teaching-title">
-      <div class="section-heading"><h2 id="teaching-title">Teaching &amp; <br>academic service</h2><p>Penn State University</p></div>
-      <div class="section-content teaching-list">
-        <article class="teaching-entry"><div><h3>DS 420 · Network Analytics</h3><p class="affiliation">Teaching Assistant</p><p>Graph and network analytics, community detection, information propagation, and network embeddings.</p></div><span class="date">Aug 2026–Present</span></article>
-        <article class="teaching-entry"><div><h3>IST 242 · Intermediate &amp; Object-Oriented Application Development</h3><p class="affiliation">Teaching Assistant</p><p>Object-oriented programming, data structures, reusable libraries, APIs, and debugging.</p></div><span class="date">Aug 2026–Present</span></article>
-        <article class="teaching-entry"><div><h3>Mathematics Peer Tutoring</h3><p class="affiliation">Penn State Learning Resource Center</p><p>Individual and small-group support in calculus, sequences and series, and introductory proofs.</p></div><span class="date">Aug 2025–Present</span></article>
-        <article class="teaching-entry"><div><h3>DS 200 · Introduction to Data Science</h3><p class="affiliation">Learning Assistant</p><p>Data analysis, visualization, statistical reasoning, and Python/R workflows.</p></div><span class="date">Jan–May 2026</span></article>
-        <article class="teaching-entry"><div><h3>CMPSC 465 · Data Structures and Algorithms</h3><p class="affiliation">Grader</p><p>Programming assignments and proofs covering asymptotics, graph algorithms, dynamic programming, and NP-completeness.</p></div><span class="date">Aug–Dec 2025</span></article>
-        <article class="teaching-entry"><div><h3>CMPSC 132 · Programming and Computation II</h3><p class="affiliation">Learning Assistant</p><p>Data structures, programming support, and student problem-solving.</p></div><span class="date">Dec 2023–Aug 2024</span></article>
-        <article class="teaching-entry"><div><h3>MATH 141 · Calculus with Analytic Geometry II</h3><p class="affiliation">Learning Assistant</p><p>Integration, sequences and series, small-group discussions, and office hours.</p></div><span class="date">Dec 2023–Aug 2024</span></article>
-        <div class="professional-service"><h3>Professional service</h3><p><strong>Program Committee Member</strong> · IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2026).</p></div>
-      </div>
-    </section>
+<section class="section service-section" id="service" aria-labelledby="service-title">
+ <div class="section-heading"><h2 id="service-title">Professional<br> service</h2><p>Academic peer review</p></div>
+ <div class="section-content"><article class="service-feature"><div class="entry-top"><p class="entry-category">IEEE ICTAI 2026</p><span class="date">2026</span></div><h3>Program Committee Member</h3><p class="service-conference">38th IEEE International Conference on Tools with Artificial Intelligence</p><p>I serve on the program committee of ICTAI 2026, an IEEE Computer Society conference covering the foundations, methods, and applications of artificial intelligence.</p><p class="affiliation">Conference · November 2–4, 2026 · Boca Raton, Florida</p><div class="entry-links"><a class="detail-link" href="https://ictai.computer.org/2026/program-committee-members/">Official program committee</a><a href="https://ictai.computer.org/2026/">Conference website</a></div></article></div>
+</section>
 
     <section class="section" id="news" aria-labelledby="news-title">
       <div class="section-heading"><h2 id="news-title">Recent updates</h2></div>
       <div class="section-content"><ul class="news-list">
         <li><span class="date">Sep 2026</span><p>Received Penn State College of Engineering research funding for the 2026–2027 academic year.</p></li>
-        <li><span class="date">Jun 2026</span><p>Presented <em>A General Biomedical Agentic Framework</em> at MMLS at Purdue University.</p></li>
+        <li><span class="date">Jun 2026</span><p>Presented <a href="MMLS_Poster_Parth_Ag.pdf"><em>General-Purpose Agentic Framework for Biomedical Research</em></a> at <a href="https://midwest-ml.org/2026/">MMLS 2026</a>, Purdue University.</p></li>
         <li><span class="date">May 2026</span><p>Began research with Dr. Haohan Wang at UIUC and the SURE fellowship under Dr. Fenglong Ma at Penn State.</p></li>
       </ul></div>
     </section>
