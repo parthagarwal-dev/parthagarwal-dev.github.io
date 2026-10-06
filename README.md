@@ -81,7 +81,7 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - The introduction now includes current teaching responsibilities. The homepage order is introduction, research interests, research projects, publications, teaching, honors/funding, professional service, technical experience, updates, and contact.
 - AVT and Nittany AI Advance now sit together under Technical experience, with direct subsection links. The existing `#avt` link still works.
 - Website contact details use `pxa5191@psu.edu` and `https://www.linkedin.com/in/parth-agarwal-965416311/`, as supplied by Parth. The uploaded CV PDF remains unchanged.
-- The shared CSS version is `20261006d`; upload all five HTML files and `styles.css` together so navigation and styling stay consistent.
+- The homepage requests CSS version `20261006e` for the updated opening summary. The project pages retain their existing stylesheet URL; their layout is unchanged.
 - Official course references: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ds/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/cmpsc/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/ist/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/math/ .
 
 ## Learning assistant, thesis, and engineering refinement
@@ -103,3 +103,12 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 
 - Following Parth’s October 6 clarification, the thesis sits at the end of Research, after SyNSec, and is mentioned briefly in the introduction after Wang, Ma, and Saha. Research navigation follows the same order.
 - The primary focus is an agentic workflow for reliable model adaptation under structured distribution shift. Materials science is the application setting, not the primary thesis category. The workflow and reliability signals are described as planned; no implementation or result is claimed.
+
+## Opening summary and academic highlights
+
+- The introduction keeps Wang first, gives Ma a separate paragraph, and adds Hussain and the NSF Award 2215017 contributor recognition. Saha’s paper link and the planned Lu Lin thesis remain visible.
+- Concise, linked highlights now cover both conference presentations, current TA and earlier LA appointments, grading and tutoring, the $4,000 Engineering research award and funded SURE fellowship, ICTAI service, AVT, and Nittany AI Advance.
+- The two conference items are ICMLA 2025 and MMLS 2026, following Parth’s request to highlight both presentations. Their detailed entries retain the distinction between a conference paper and a poster; the summary does not identify an individual speaker for ICMLA.
+- No specific Hussain paper has been identified in the supplied CV or prior research records, so the summary uses the documented NSF contributor recognition without claiming authorship of an unidentified paper.
+- The existing Research order remains Wang → Ma → Saha → SyNSec → planned thesis.
+- For this summary update, `index.html` and `styles.css` contain the visible changes; `README.md` documents them. The ZIP retains every existing research page, PDF, and image.
