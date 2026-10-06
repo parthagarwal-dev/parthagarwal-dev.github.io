@@ -116,7 +116,7 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 ## Portrait, affiliations, and highlights update
 
 - The opening explicitly locates the work with Dr. Suman Saha, Dr. Syed Rafiul Hussain, and the planned thesis with Dr. Lu Lin at Penn State. Wang remains linked to UIUC; Ma’s research is described in its Penn State setting.
-- The supplied AutoDrive photograph is included as `assets/parth-agarwal.png`. The original image bytes are preserved; CSS frames it as a portrait without changing facial features or retouching the image.
+- The supplied AutoDrive photograph is preserved as `assets/parth-agarwal.png`. The initial CSS crop was superseded by the portrait cleanup described below.
 - Academic highlights use a restrained three-column layout on wide screens, two columns on tablets, and one column on phones, with concise descriptions, stronger titles, and direct links to the full sections.
 - Visible changes are in `index.html`, `styles.css`, and `assets/parth-agarwal.png`. Upload the files from the update ZIP at the repository root, keeping the image inside `assets`. Existing project pages and other assets are retained.
 - Fresh local references were validated. The browser blocked local-file previews, so this revision has not had a rendered browser check.
@@ -127,3 +127,15 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - `assets/icmla-2025-paper-preview.jpg` is rendered directly from the first page of https://arxiv.org/pdf/2509.16472 (arXiv v1, September 19, 2025). Clicking it opens that full PDF. This is the actual paper page, not generated artwork.
 - The focused update ZIP includes the new paper preview and the portrait from the preceding revision, plus `index.html`, `styles.css`, and `README.md`. Keep both images inside `assets` when uploading.
 - Local asset and anchor checks passed. No fresh rendered browser check was available.
+
+## Portrait cleanup
+
+- The profile now uses `assets/parth-agarwal-portrait.png`, a portrait edited from the original photograph with the built-in image editing tool. The busy event backdrop is replaced by a soft gray background, with more comfortable headroom and natural lighting. The original source remains in the full website package.
+- Removed the extra 20% CSS zoom and the fixed crop. The new 1122 × 1402 image displays at its natural proportions with `width: 100%` and `height: auto` on desktop and mobile.
+- The homepage requests `styles.css?v=20261006h` to refresh the updated styles.
+- `parth-website-clean-portrait-20261006.zip` includes the updated homepage, styles, this README, the cleaned portrait, and the ICMLA paper thumbnail. Earlier affiliation and academic highlight changes are included. Upload all contents at the repository root, preserving the `assets` folder. These local changes require uploading to GitHub Pages before they are live.
+- Source and package references were checked. No fresh rendered browser check was available.
+
+Image-editing prompt used (built-in tool):
+
+> Use case: identity-preserve. Edit target: the attached original photograph of Parth Agarwal in his dark suit at the AutoDrive event. Asset type: portrait photo for his academic personal website. Primary request: clean up the photo and fix the awkward overly tight crop. Produce one natural photographic portrait with a 4:5 portrait composition, the full head and hair comfortably inside the frame with generous headroom (about 10–12% above hair), both shoulders fully present with side breathing room, and the upper torso/tie visible down to mid chest. Use the exact original person, facial geometry, expression, natural skin texture, hair, body proportions, suit, shirt, patterned tie and lapel pin. Keep the real face and clothing as unchanged as possible; do not beautify, reshape, age, smooth skin or reconstruct the face. Replace only the busy logo backdrop with a clean soft light warm-gray photographic background and make very restrained exposure/white balance cleanup consistent with the original lighting. Preserve the original pose and realistic colors. Natural academic portrait, not a stylized image. No text, logos or borders added. Avoid cutting hair or shoulders, oversharpening, heavy filters, plastic skin, synthetic face, dramatic relighting or excessive zoom.
