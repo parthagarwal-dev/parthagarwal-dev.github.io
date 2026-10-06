@@ -81,7 +81,7 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - The introduction now includes current teaching responsibilities. The homepage order is introduction, research interests, research projects, publications, teaching, honors/funding, professional service, technical experience, updates, and contact.
 - AVT and Nittany AI Advance now sit together under Technical experience, with direct subsection links. The existing `#avt` link still works.
 - Website contact details use `pxa5191@psu.edu` and `https://www.linkedin.com/in/parth-agarwal-965416311/`, as supplied by Parth. The uploaded CV PDF remains unchanged.
-- The homepage requests CSS version `20261006e` for the updated opening summary. The project pages retain their existing stylesheet URL; their layout is unchanged.
+- The homepage requests CSS version `20261006f` for the updated opening summary. The project pages retain their existing stylesheet URL; their layout is unchanged.
 - Official course references: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ds/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/cmpsc/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/ist/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/math/ .
 
 ## Learning assistant, thesis, and engineering refinement
@@ -112,3 +112,11 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - No specific Hussain paper has been identified in the supplied CV or prior research records, so the summary uses the documented NSF contributor recognition without claiming authorship of an unidentified paper.
 - The existing Research order remains Wang → Ma → Saha → SyNSec → planned thesis.
 - For this summary update, `index.html` and `styles.css` contain the visible changes; `README.md` documents them. The ZIP retains every existing research page, PDF, and image.
+
+## Portrait, affiliations, and highlights update
+
+- The opening explicitly locates the work with Dr. Suman Saha, Dr. Syed Rafiul Hussain, and the planned thesis with Dr. Lu Lin at Penn State. Wang remains linked to UIUC; Ma’s research is described in its Penn State setting.
+- The supplied AutoDrive photograph is included as `assets/parth-agarwal.png`. The original image bytes are preserved; CSS frames it as a portrait without changing facial features or retouching the image.
+- Academic highlights use a restrained three-column layout on wide screens, two columns on tablets, and one column on phones, with concise descriptions, stronger titles, and direct links to the full sections.
+- Visible changes are in `index.html`, `styles.css`, and `assets/parth-agarwal.png`. Upload the files from the update ZIP at the repository root, keeping the image inside `assets`. Existing project pages and other assets are retained.
+- Fresh local references were validated. The browser blocked local-file previews, so this revision has not had a rendered browser check.
