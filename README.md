@@ -81,7 +81,7 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - The introduction now includes current teaching responsibilities. The homepage order is introduction, research interests, research projects, publications, teaching, honors/funding, professional service, technical experience, updates, and contact.
 - AVT and Nittany AI Advance now sit together under Technical experience, with direct subsection links. The existing `#avt` link still works.
 - Website contact details use `pxa5191@psu.edu` and `https://www.linkedin.com/in/parth-agarwal-965416311/`, as supplied by Parth. The uploaded CV PDF remains unchanged.
-- The shared CSS version is `20261006c`; upload all five HTML files and `styles.css` together so navigation and styling stay consistent.
+- The shared CSS version is `20261006d`; upload all five HTML files and `styles.css` together so navigation and styling stay consistent.
 - Official course references: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ds/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/cmpsc/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/ist/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/math/ .
 
 ## Learning assistant, thesis, and engineering refinement
@@ -89,3 +89,12 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - Learning assistant appointments use the same bordered course cards as teaching assistant appointments, preserving course descriptions, contributions, dates, and links. Grading and mathematics tutoring remain after these groups.
 - The planned materials science thesis under Dr. Lu Lin has a prominent research panel and a research navigation link. No completed experiments, results, dataset, or publication is claimed. Advisor homepage: https://louise-lulin.github.io/ .
 - Technical experience now presents AVT first, followed by Nittany AI Advance. Solutions Engineer is a full-size heading matching the other engineering entry, with the linked program name immediately below it.
+
+## Research evidence and thesis placement
+
+- Research order: Wang → Ma → planned Lu Lin thesis → Saha → SyNSec. The planned thesis remains visibly labeled and has no invented dataset, experimental results, or publication.
+- Wang’s role is explicitly an extension of the pre-existing HEART framework, following Parth’s earlier correction. Design rationale explains input contracts, reusable capabilities, and independent verification without claiming sole invention of the framework.
+- Agent results are transcribed from the supplied MMLS poster’s overall benchmark: proposed framework / Biomni / GENIE3 / GRNBoost2 / Pearson / PPCOR AUROC = 0.6723 / 0.5612 / 0.5995 / 0.5626 / 0.5333 / 0.5149; AUPRC = 0.1211 / 0.0656 / 0.0539 / 0.0510 / 0.0425 / 0.0378. These describe the June presentation, not current RECOMB results or a component ablation. The 15-dataset label belongs to a separate poster panel and is not applied to the overall benchmark.
+- EHR findings come from Parth’s uploaded August 25, 2026 V1 training/evaluation log, `Pasted text(20260825-052247).txt`. This is a single-seed comparison (seed 20260825) on 65,017 test prediction events, using standard training versus 20% modality dropout. Full-input AUROC: 0.6607727778 / 0.6616028125; Brier: 0.2328482252 / 0.2034559219; labs-removed AUROC: 0.6226649433 / 0.6409601719. AUROC drops: 0.0381078345 / 0.0206426406. Public tables round to four decimals. These are preliminary V1 findings, not a final model comparison, significance claim, or clinical validation.
+- The evaluated EHR snapshot used five sources and note metadata, not narrative clinical text. The source schematic and project description now reflect that distinction. Clinical NLP remains a broader research interest. Earlier prototype scores and later unmatched/model-version results were not mixed into this table.
+- Raw research logs, patient-level data, internal paths, and internal repositories are not included in the website package. EHRSHOT links identify upstream resources, not Parth’s own public code.
