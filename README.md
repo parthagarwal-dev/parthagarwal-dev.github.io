@@ -59,14 +59,14 @@ The site includes the consistent results: **third overall** and **second in Inte
 
 Edit the relevant HTML page directly. Shared styling is in `styles.css`. Preserve the `assets` directory and relative file paths.
 
-Homepage anchors include `research`, `wang`, `ma`, `saha`, `security`, `publications`, `avt`, `honors`, `sure`, `experience`, `teaching`, `news`, and `contact`.
+Homepage anchors include `research`, `wang`, `ma`, `saha`, `security`, `publications`, `avt`, `honors`, `sure`, `experience`, `nittany-ai`, `teaching`, `service`, `interests`, `news`, and `contact`.
 
 For a local preview, open `index.html` in a browser, or install the optional preview dependencies with `npm ci` and run `npm run dev`. Follow the local URL printed by Vite. Do not upload `node_modules`.
 
 
 ## October 6 academic portfolio update
 
-- Teaching now features the two current teaching assistant appointments, followed by tutoring and previous course appointments. Each course links to its official description. Course titles follow the Penn State catalogue.
+- Teaching appears immediately after publications. Two current teaching assistant appointments are followed by three learning assistant roles, grading, and mathematics peer tutoring at the end. Each course has a concise subject overview, a separate account of Parth’s role, and an official course link. Course scope follows the Penn State catalogue; responsibilities and dates follow the supplied CV.
 - Professional service has its own section and navigation link. The ICTAI 2026 committee page explicitly lists Parth Agarwal, Pennsylvania State University: https://ictai.computer.org/2026/program-committee-members/
 - Engineering funding is highlighted as a $4,000 research award. Competitive selection and recognition of research potential follow the supplied CV; no acceptance rate, ranking, or specific donor name has been inferred. The general engineering research link provides institutional context, not an individual award announcement.
 - SURE highlights selection for a funded, ten-week full-time research fellowship and links to the official program. The program website currently describes a later application cycle; the portfolio retains the supplied 2026 fellowship dates and does not infer a personal stipend amount from that page.
@@ -75,3 +75,11 @@ For a local preview, open `index.html` in a browser, or install the optional pre
 - Nittany AI Advance now includes the program link, project partner, technical responsibilities, and delivery details from the supplied CV. Its description does not claim a public project repository or measurable outcomes that were not supplied. Program: https://nittanyai.psu.edu/programs/advance
 
 Upload the revised HTML files, `styles.css`, and the poster PDF to the repository root; upload the new poster preview inside `assets`. The complete ZIP also includes all earlier site assets. Keep the folder structure intact.
+
+## Teaching and page organization refinement
+
+- The introduction now includes current teaching responsibilities. The homepage order is introduction, research interests, research projects, publications, teaching, honors/funding, professional service, technical experience, updates, and contact.
+- AVT and Nittany AI Advance now sit together under Technical experience, with direct subsection links. The existing `#avt` link still works.
+- Website contact details use `pxa5191@psu.edu` and `https://www.linkedin.com/in/parth-agarwal-965416311/`, as supplied by Parth. The uploaded CV PDF remains unchanged.
+- The shared CSS version is `20261006b`; upload all five HTML files and `styles.css` together so navigation and styling stay consistent.
+- Official course references: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ds/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/cmpsc/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/ist/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/math/ .
