@@ -34,7 +34,7 @@ Keep the existing GitHub Pages configuration. No production build or JavaScript 
 - The NSF item is **recognized research contributor to an NSF-supported project**, not a personal NSF grant or fellowship award. The recognition follows the supplied CV; the linked public records verify the award and project rather than an individual contributor roster.
 - The gait paper title follows arXiv: **Explainable Gait Abnormality Detection Using Dual-Dataset CNN-LSTM Models**. https://arxiv.org/abs/2509.16472
 - The diagrams explain research approaches. They are not experimental results, clinical outcome claims, or official conference figures. They can be opened at full size from the project pages.
-- The planned adaptation thesis remains clearly labeled as a planned direction.
+- The planned undergraduate thesis remains clearly labeled as planned. Its materials science application domain and advisor, Dr. Lu Lin, follow Parth’s October 6 update. Her linked homepage verifies her faculty affiliation; it is not evidence of this individual thesis arrangement.
 - Teaching, tutoring, grading, ICTAI service, Nittany AI Advance, SURE, College of Engineering funding, and AVT are retained.
 
 ## AVT image and results
@@ -59,7 +59,7 @@ The site includes the consistent results: **third overall** and **second in Inte
 
 Edit the relevant HTML page directly. Shared styling is in `styles.css`. Preserve the `assets` directory and relative file paths.
 
-Homepage anchors include `research`, `wang`, `ma`, `saha`, `security`, `publications`, `avt`, `honors`, `sure`, `experience`, `nittany-ai`, `teaching`, `service`, `interests`, `news`, and `contact`.
+Homepage anchors include `research`, `wang`, `ma`, `saha`, `security`, `publications`, `avt`, `honors`, `sure`, `experience`, `nittany-ai`, `thesis`, `teaching`, `service`, `interests`, `news`, and `contact`.
 
 For a local preview, open `index.html` in a browser, or install the optional preview dependencies with `npm ci` and run `npm run dev`. Follow the local URL printed by Vite. Do not upload `node_modules`.
 
@@ -81,5 +81,11 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - The introduction now includes current teaching responsibilities. The homepage order is introduction, research interests, research projects, publications, teaching, honors/funding, professional service, technical experience, updates, and contact.
 - AVT and Nittany AI Advance now sit together under Technical experience, with direct subsection links. The existing `#avt` link still works.
 - Website contact details use `pxa5191@psu.edu` and `https://www.linkedin.com/in/parth-agarwal-965416311/`, as supplied by Parth. The uploaded CV PDF remains unchanged.
-- The shared CSS version is `20261006b`; upload all five HTML files and `styles.css` together so navigation and styling stay consistent.
+- The shared CSS version is `20261006c`; upload all five HTML files and `styles.css` together so navigation and styling stay consistent.
 - Official course references: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ds/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/cmpsc/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/ist/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/math/ .
+
+## Learning assistant, thesis, and engineering refinement
+
+- Learning assistant appointments use the same bordered course cards as teaching assistant appointments, preserving course descriptions, contributions, dates, and links. Grading and mathematics tutoring remain after these groups.
+- The planned materials science thesis under Dr. Lu Lin has a prominent research panel and a research navigation link. No completed experiments, results, dataset, or publication is claimed. Advisor homepage: https://louise-lulin.github.io/ .
+- Technical experience now presents AVT first, followed by Nittany AI Advance. Solutions Engineer is a full-size heading matching the other engineering entry, with the linked program name immediately below it.
