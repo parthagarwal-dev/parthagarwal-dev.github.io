@@ -81,7 +81,7 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - The introduction now includes current teaching responsibilities. The homepage order is introduction, research interests, research projects, publications, teaching, honors/funding, professional service, technical experience, updates, and contact.
 - AVT and Nittany AI Advance now sit together under Technical experience, with direct subsection links. The existing `#avt` link still works.
 - Website contact details use `pxa5191@psu.edu` and `https://www.linkedin.com/in/parth-agarwal-965416311/`, as supplied by Parth. The uploaded CV PDF remains unchanged.
-- The homepage requests CSS version `20261006f` for the updated opening summary. The project pages retain their existing stylesheet URL; their layout is unchanged.
+- The homepage requests CSS version `20261006g` for the updated opening summary. The project pages retain their existing stylesheet URL; their layout is unchanged.
 - Official course references: https://bulletins.psu.edu/university-course-descriptions/undergraduate/ds/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/cmpsc/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/ist/ ; https://bulletins.psu.edu/university-course-descriptions/undergraduate/math/ .
 
 ## Learning assistant, thesis, and engineering refinement
@@ -120,3 +120,10 @@ Upload the revised HTML files, `styles.css`, and the poster PDF to the repositor
 - Academic highlights use a restrained three-column layout on wide screens, two columns on tablets, and one column on phones, with concise descriptions, stronger titles, and direct links to the full sections.
 - Visible changes are in `index.html`, `styles.css`, and `assets/parth-agarwal.png`. Upload the files from the update ZIP at the repository root, keeping the image inside `assets`. Existing project pages and other assets are retained.
 - Fresh local references were validated. The browser blocked local-file previews, so this revision has not had a rendered browser check.
+
+## ICMLA paper preview
+
+- The ICMLA 2025 publication now includes a clickable first-page thumbnail alongside its title, authors, venue, brief description, and paper links. It follows the poster entry’s responsive layout and stacks on narrow screens.
+- `assets/icmla-2025-paper-preview.jpg` is rendered directly from the first page of https://arxiv.org/pdf/2509.16472 (arXiv v1, September 19, 2025). Clicking it opens that full PDF. This is the actual paper page, not generated artwork.
+- The focused update ZIP includes the new paper preview and the portrait from the preceding revision, plus `index.html`, `styles.css`, and `README.md`. Keep both images inside `assets` when uploading.
+- Local asset and anchor checks passed. No fresh rendered browser check was available.

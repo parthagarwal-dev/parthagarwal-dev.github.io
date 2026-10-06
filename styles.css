@@ -283,6 +283,10 @@ figcaption { font-size: .75rem; line-height: 1.6; color: var(--muted); margin-to
 .poster-thumb { margin: 5px 0 0; }
 .poster-thumb img, .poster-detail img { width: 100%; height: auto; display: block; border: 1px solid var(--line); }
 .poster-thumb a { display: block; }
+.paper-summary { grid-template-columns: minmax(0,1fr) minmax(180px,240px); }
+.paper-thumb { width: 100%; max-width: 240px; justify-self: end; }
+.paper-thumb img { box-shadow: 0 4px 14px rgba(37,36,41,.07); }
+.paper-thumb a:hover img { border-color: var(--accent); }
 .poster-detail { margin: 25px 0 0; }
 .award-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px; }
 .award-card { border: 1px solid var(--line); border-top: 3px solid var(--accent); padding: 25px; background: #fcfafb; }
@@ -355,6 +359,7 @@ figcaption { font-size: .75rem; line-height: 1.6; color: var(--muted); margin-to
  .header-inner { padding-block: 10px; }
  .poster-summary { grid-template-columns: minmax(0,1fr); }
  .poster-thumb { max-width: 400px; }
+ .paper-thumb { max-width: 250px; justify-self: start; }
  .teaching-section .wide-heading { display: block; }
  .teaching-section .wide-heading > p { margin-top: 12px; }
 }
